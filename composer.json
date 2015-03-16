@@ -1,0 +1,24 @@
+{
+    "name": "martiadrogue/yamlparser",
+    "description": "A Yaml parser based on Symfony.",
+    "keywords": ["package", "parser", "yaml"],
+    "homepage": "https://github.com/martiadrogue/yamlparser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martí Adrogué",
+            "email": "marti.adrogue@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Com\\Martiadrogue\\Yamlparser\\": "src/Com/Martiadrogue/Yamlparser/"
+        }
+    }
+
+}
